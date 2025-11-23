@@ -4,17 +4,17 @@ local Luna = loadstring(game:HttpGet("https://raw.nebulasoftworks.xyz/luna", tru
 -- WINDOW CREATION WITH KEY SYSTEM
 -- ============================================
 local Window = Luna:CreateWindow({
-    Name = "LunarZ Example Window",
+    Name = "LunarZ | AOTR",
     Subtitle = "Test",
     LogoID = "6031097225",
     LoadingEnabled = true,
-    LoadingTitle = "Luna Interface Suite",
-    LoadingSubtitle = "by Nebula Softworks",
+    LoadingTitle = "AOTR | FREE",
+    LoadingSubtitle = "by LunarZ",
     KeySystem = true,
     KeySettings = {
-        Title = "Luna Example Key",
+        Title = "Required Key",
         Subtitle = "Key System",
-        Note = "Please Enter Your Key To Use Example Hub",
+        Note = "Please Enter Your Key To Use LunarZ",
         FileName = "Key",
         SaveKey = true,
         Key = {"Example Key"}
@@ -25,10 +25,10 @@ local Window = Luna:CreateWindow({
 -- WELCOME NOTIFICATION
 -- ============================================
 Luna:Notification({ 
-    Title = "Welcome to Luna",
+    Title = "Welcome to LunarZ",
     Icon = "sparkle",
     ImageSource = "Material",
-    Content = "Welcome to the Luna Interface Suite. This Is an Amazing Quality Freemium UI Library For Roblox Exploiting Made By Nebula Softworks. Luna was Created in hopes of improving the standard of UI Library designs by being the golden standard for it. Luna Has Amazing Features like a key system, notification and perfection in aesthetics and design. So, What Are You Waiting For? Start Using Luna Today!"
+    Content = ""
 })
 
 -- ============================================
@@ -36,25 +36,25 @@ Luna:Notification({
 -- ============================================
 local Tabs = {
     Main = Window:CreateTab({
-        Name = "Tab Example 1",
+        Name = "Main",
         Icon = "view_in_ar",
         ImageSource = "Material",
         ShowTitle = true
     }),
     Main2 = Window:CreateTab({
-        Name = "Tab Example 2",
+        Name = "Raid",
         Icon = "location_searching",
         ImageSource = "Material",
         ShowTitle = false
     }),
     Premium = Window:CreateTab({
-        Name = "Premium Tab",
+        Name = "Webhook",
         Icon = "sparkle",
         ImageSource = "Material",
         ShowTitle = true
     }),
     Debug = Window:CreateTab({
-        Name = "Debug",
+        Name = "Stats",
         Icon = "settings"
     })
 }
